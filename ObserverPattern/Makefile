@@ -2,7 +2,7 @@
 CXX = g++
 
 # 源文件列表
-SRC = PrototypePattern.cpp
+SRC = ObserverPattern.cpp
 
 # 可执行文件的名称
 TARGETS = $(SRC:.cpp=)
