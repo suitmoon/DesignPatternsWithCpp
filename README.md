@@ -7,33 +7,34 @@
 
 **设计模式分三大类**：
 **创建型模式:** 涉及对象的创建过程，帮助系统独立于如何创建、组合和表示对象。常见的创建型模式包括：
-- 单例模式（Singleton）
-- 工厂方法模式（Factory Method）
-- 抽象工厂模式（Abstract Factory）
-- 建造者模式（Builder）
-- 原型模式（Prototype）
+
+- [单例模式（Singleton）](./SingletonPattern/SingletonPattern.md)
+- [工厂方法模式（Factory Method）](./FactoryPattern/FactoryPattern.md)
+- [抽象工厂模式（Abstract Factory）](./FactoryPattern/FactoryPattern.md)
+- [建造者模式（Builder）](./BuilderPattern/BuilderPattern.md)
+- [原型模式（Prototype）](./PrototypePattern/PrototypePattern.md)
 
 **结构型模式：** 关注类和对象的组合，帮助简化系统结构。典型的结构型模式包括：
-- 适配器模式（Adapter）
-- 桥接模式（Bridge）
-- 组合模式（Composite）
-- 装饰者模式（Decorator）
-- 外观模式（Facade）
-- 享元模式（Flyweight）
-- 代理模式（Proxy）
+- [适配器模式（Adapter）](./AdapterPattern/AdapterPattern.md)
+- [桥接模式（Bridge）](./BridgePattern/BridgePattern.md)
+- [组合模式（Composite）](./CompositePattern/CompositePattern.md)
+- [装饰者模式（Decorator）](./DecoratorPattern/DecoratorPattern.md)
+- [外观模式（Facade）](./FacadePattern/FacadePattern.md)
+- [享元模式（Flyweight）](./FlyweightPattern/FlyweightPattern.md)
+- [代理模式（Proxy）](./ProxyPattern/ProxyPattern.md)
 
 **行为型模式：** 关注对象之间的交互和职责分配，提升对象的协作。常见的行为型模式包括：
-- 观察者模式（Observer）
-- 策略模式（Strategy）
-- 命令模式（Command）
-- 状态模式（State）
-- 责任链模式（Chain of Responsibility）
-- 中介者模式（Mediator）
-- 访问者模式（Visitor）
-- 迭代器模式（Iterator）
-- 模板方法模式（Template Method）
-- 解释器模式（Interpreter）
-- 备忘录模式（Memento）
+- [观察者模式（Observer）](./ObserverPattern/ObserverPattern.md)
+- [策略模式（Strategy）](./StrategyPattern/StrategyPattern.md)
+- [命令模式（Command）](./CommandPattern/CommandPattern.md)
+- [状态模式（State）](./StatePattern/StatePattern.md)
+- [责任链模式（Chain of Responsibility）](./ChainOfResponsibilityPattern/ChainOfResponsibilityPattern.md)
+- [中介者模式（Mediator）](./MediatorPattern/MediatorPattern.md)
+- [访问者模式（Visitor）](./VisitorPattern/VisitorPattern.md)
+- [迭代器模式（Iterator）](./IteratorPattern/IteratorPattern.md)
+- [模板方法模式（Template Method）](./TemplateMethodPattern/TemplateMethod.md)
+- [解释器模式（Interpreter）](./InterpreterPattern/InterpreterPattern.md)
+- [备忘录模式（Memento）](./MementoPattern/MementoPattern.md)
 
 从**动态和静态**两个方面来看，设计模式可以分为:
   - 处理类与子类之间的静态关系
@@ -57,6 +58,9 @@
  设计的目标应该是尽可能将变化控制在一个可控的范围内，以确保这些变化不会对系统的核心功能和稳定性造成影响。通过将不稳定的部分与稳定的部分分离，可以降低系统的复杂性，提高维护性，同时在变化发生时减少对其他部分的影响。
 8. **针对接口编程，而不是针对实现** 
 	不将变量类型声明为某个特定的具体类，而是声明为某个接口。客户程序无需获知对象的具体类型，只需知道对象所具有的接口；减少系统中各部分的依赖关系，从而实现“高内聚、松耦合”的类型设计方案。
+
+
+
 
 
 
